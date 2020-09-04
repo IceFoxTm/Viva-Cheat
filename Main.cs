@@ -20,12 +20,13 @@ namespace LoliCheat
             Mods.Add(new HorseTP());
             Mods.Add(new CopyLoli());
             Mods.Add(new RayTeleport());
+            Mods.Add(new HomeTeleport());
             //Mods.Add(new Experemental());
 
             foreach (VMod Mod in Mods)
             {
                 Mod.OnStart();
-                MelonLogger.Log($"{Mod.ModName} loaded");
+                MelonLogger.Log($"|{Mod.ModName}| loaded");
             }
             MelonLogger.Log($"Loaded {Mods.Count} mods\n");
         }

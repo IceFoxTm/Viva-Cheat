@@ -90,6 +90,7 @@
     <Compile Include="Mods\CopyLoli.cs" />
     <Compile Include="Mods\Experemental.cs" />
     <Compile Include="Mods\Fly.cs" />
+    <Compile Include="Mods\HomeTeleport.cs" />
     <Compile Include="Mods\HorseTP.cs" />
     <Compile Include="Mods\Lighter.cs" />
     <Compile Include="Mods\RayTeleport.cs" />
